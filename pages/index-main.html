@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="../HTWF/scripts/php/contact-form.css">
     <link rel="icon" href="../images/favicon.png">
     <link rel="stylesheet" href="../skin.css">
+    <link rel="stylesheet" href="../HTWF/scripts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../HTWF/scripts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../HTWF/css/whychoose.css">
 </head>
 <body>
     <div id="preloader"></div>
@@ -32,20 +35,20 @@
             <div class="navbar-mini scroll-hide">
                 <div class="container">
                     <div class="nav navbar-nav navbar-left">
-                        <span><i class="fa fa-phone"></i>1-800-405-377</span>
+                        <span><img src="/images/iconimg/phone.png">1-800-405-377</span>
                         <hr />
-                        <span><i class="fa fa-envelope"></i>info@company.com</span>
+                        <span><img src="/images/iconimg/email.png">info@company.com</span>
                         <hr />
-                        <span>  <i class="fa fa-map-marker"></i>Collins Street 8007, USA</span>
+                        <span> <img src="/images/iconimg/home-run.png">Collins Street 8007, USA</span>
                         <hr />
-                        <span><i class="fa fa-calendar"></i>Mon - Sat: 8.00 - 19:00</span>
+                        <span><img src="/images/iconimg/calendar.png">Mon - Sat: 8.00 - 19:00</span>
                     </div>
                     <div class="nav navbar-nav navbar-right">
                         <div class="minisocial-group">
-                            <a target="_blank" href="#"><i class="fa fa-facebook first"></i></a>
-                            <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
-                            <a target="_blank" href="#"><i class="fa fa-youtube"></i></a>
-                            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="#"><img src="/images/iconimg/facebook.png"></i></a>
+                            <a target="_blank" href="#"><img src="/images/iconimg/instagram-sketched.png"></a>
+                            <a target="_blank" href="#"><img src="/images/iconimg/tweet.png"></a>
+                            <a target="_blank" href="#"><img src="/images/iconimg/gmail.png"></a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +57,7 @@
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle">
-                            <i class="fa fa-bars"></i>
+                            <img style="width: 20px; height: 20px;" src="/images/iconimg/open-menu.png">
                         </button>
                         <a class="navbar-brand" href="index-main.html">
                             <img class="logo-default" src="../images/logo.png" alt="logo" />
@@ -86,17 +89,10 @@
                                     <input type="text" class="form-control" placeholder="Search for...">
                                 </div>
                                 <button type="button" class="btn btn-default btn-search">
-                                    <span class="fa fa-search"></span>
+                                    <img src="/images/iconimg/search.png">
                                 </button>
                             </div>
-                            <ul class="nav navbar-nav lan-menu">
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><img src="../images/en.png" alt="" />En<span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><img src="../images/it.png" alt="" />IT</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                           
                         </div>
                     </div>
                 </div>
@@ -104,6 +100,44 @@
         </div>
     </header>
     <div class="section-empty no-paddings">
+        <div class="section-slider row-18" >
+            <div class="flexslider advanced-slider slider" data-options="animation:fade">
+                <ul class="slides">
+                    <li data-slider-anima="fade-left" data-time="1000">
+                        <div class="section-slide">
+                            <div class="bg-cover" style="background-image: url('/images/images/photo-1451187580459-43490279c0fa.jfif'); background-size: cover;">
+                            </div>
+                            <div class="container">
+                                <!-- <img class="pos-slider pos-bottom pos-right anima anima-fade-bottom hidden-xs" src="/images/images/photo-1523961131990-5ea7c61b2107.jfif" alt="" /> -->
+                                <div class="container-middle">
+                                    <div class="container-inner text-left">
+                                        <hr class="space m visible-sm" />
+                                        <div class="row">
+                                            <div class="col-md-12 anima">
+                                                <h1 class="" style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(245, 234, 234); text-align: center; font-size: 40px; font-weight: 600; font-style: italic;">Welcome To Aces Digitale!</h1>
+                                                <p class="text-s-xs" style="color: rgb(236, 230, 174); text-justify: auto; text-align: center;">
+                                                    Aces Digitale is a global research and outsourcing firm that helps organizations across the globe optimize their end-to-end research processes.
+                                                </p>
+                                                <hr class="space s" />
+                                                <div class="col-md-12" style="text-align: center;">
+                                                    <a  href="services-1.html" class="btn btn-lg btn-border"> Services</a><span class="space"></span>
+                                                <a href="contacts-3.html" class="btn btn-lg btn-border"> Contact Us</a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <hr class="space visible-sm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty no-paddings" style="margin-top: 10px;">
         <div class="section-slider row-18">
             <div class="flexslider advanced-slider slider" data-options="animation:fade">
                 <ul class="slides">
@@ -112,23 +146,22 @@
                             <div class="bg-cover" style="background-image:url('../images/bg-5.jpg')">
                             </div>
                             <div class="container">
-                                <img class="pos-slider pos-bottom pos-right anima anima-fade-bottom hidden-xs" src="../images/mk-1.png" alt="" />
+                              
                                 <div class="container-middle">
                                     <div class="container-inner text-left">
                                         <hr class="space m visible-sm" />
                                         <div class="row">
-                                            <div class="col-md-6 anima">
-                                                <h1 class="text-l text-normal text-m-xs">Architecture is a visual art and the buildings speak for themselves</h1>
-                                                <p class="text-s-xs">
-                                                    I enjoy art and museums but also churches, anything that gives me insight into the history and soul of the place I'm in.
-                                                    I can also be a beach bum - I like to laze in the shade of a palm tree with a good book or float in a warm sea at sundown.
+                                            <h2 style="text-align: center;">Why Aces Digitale</h2>
+                                            <div class="border" style=" width: 160px; height: 5px; background: #6ab04c;  margin: 26px auto;"></div>
+                                            <div class="col-md-12 anima">
+                                                <h1 class="text-l text-normal text-m-xs"style="text-align: center; font-weight: 600;">Fast and Cost-Effective Service</h1>
+                                                <p class="text-s-xs"style="text-align: center;">
+                                                    We have group of Interviewer and researcher in each boundary who are employees of Aces Digitale. At Aces Digitale, we go the extra mile to ensure our service is cost-effective in its input to output ratio, which weighs different qualitative and quantitative factors to create a greater whole. Our global outreach, with a local team, and strong local associates based in all major work areas provides us with a major comparative advantage, helping us reduce our costs.
                                                 </p>
                                                 <hr class="space s" />
-                                                <a href="#" class="btn btn-lg"><i class="fa fa-gears"></i> Services</a><span class="space"></span>
-                                                <a href="#" class="btn btn-lg btn-border"><i class="fa fa-folder-open"></i> Projects</a>
+                                               
                                             </div>
-                                            <div class="col-md-6">
-                                            </div>
+                                        
                                         </div>
                                         <hr class="space visible-sm" />
                                     </div>
@@ -141,23 +174,22 @@
                             <div class="bg-cover" style="background-image:url('../images/bg-5.jpg')">
                             </div>
                             <div class="container">
-                                <img class="pos-slider pos-bottom pos-right anima anima-fade-bottom hidden-xs" src="../images/mk-1.png" alt="" />
+                              
                                 <div class="container-middle">
                                     <div class="container-inner text-left">
                                         <hr class="space m visible-sm" />
                                         <div class="row">
-                                            <div class="col-md-6 anima">
-                                                <h1 class="text-l text-normal text-m-xs">Architecture is a visual art and the buildings speak for themselves</h1>
-                                                <p class="text-s-xs">
-                                                    I enjoy art and museums but also churches, anything that gives me insight into the history and soul of the place I'm in.
-                                                    I can also be a beach bum - I like to laze in the shade of a palm tree with a good book or float in a warm sea at sundown.
+                                            <h2 style="text-align: center;">Why Aces Digitale</h2>
+                                            <div class="border" style=" width: 160px; height: 5px; background: #6ab04c;  margin: 26px auto;"></div>
+                                            <div class="col-md-12 anima">
+                                                <h1 class="text-l text-normal text-m-xs"style="text-align: center; font-weight: 600;">Competitive Pricing</h1>
+                                                <p class="text-s-xs" style="text-align: center; ">
+                                                    We can assure you with the most competitive pricing because we have local recruiter and research in different geographies with 4 years’ experience in the market. We also have data base in different industries in our panel, which help us in many projects, where we have to give them honorarium with amazon gifts vouchers. Additionally, we have freelancer and expert internal team who execute the project in our key areas.
                                                 </p>
                                                 <hr class="space s" />
-                                                <a href="#" class="btn btn-lg"><i class="fa fa-gears"></i> Services</a><span class="space"></span>
-                                                <a href="#" class="btn btn-lg btn-border"><i class="fa fa-folder-open"></i> Projects</a>
+                                               
                                             </div>
-                                            <div class="col-md-6">
-                                            </div>
+                                         
                                         </div>
                                         <hr class="space visible-sm" />
                                     </div>
@@ -170,23 +202,47 @@
                             <div class="bg-cover" style="background-image:url('../images/bg-5.jpg')">
                             </div>
                             <div class="container">
-                                <img class="pos-slider pos-bottom pos-right anima anima-fade-bottom hidden-xs" src="../images/mk-1.png" alt="" />
                                 <div class="container-middle">
                                     <div class="container-inner text-left">
                                         <hr class="space m visible-sm" />
                                         <div class="row">
-                                            <div class="col-md-6 anima">
-                                                <h1 class="text-l text-normal text-m-xs">Architecture is a visual art and the buildings speak for themselves</h1>
-                                                <p class="text-s-xs">
-                                                    I enjoy art and museums but also churches, anything that gives me insight into the history and soul of the place I'm in.
-                                                    I can also be a beach bum - I like to laze in the shade of a palm tree with a good book or float in a warm sea at sundown.
+                                            <h2 style="text-align: center;">Why Aces Digitale</h2>
+                                            <div class="border" style=" width: 160px; height: 5px; background: #6ab04c;  margin: 26px auto;"></div>
+                                            <div class="col-md-12 anima">
+                                                <h1 class="text-l text-normal text-m-xs " style="text-align: center; font-weight: 600;">Hyperconscious friendly client service staff</h1>
+                                                <p class="text-s-xs" style="text-align: center;">
+                                                    Our Employees are to be credited for all of Aces Digitale successes is comprised of specialists with a corporate experience, who hail from a myriad of backgrounds and location. Our professional team has unparalleled knowledge about most geographies, even the hard-to- reach ones.  At Aces Digitale, its people are valued above all else, and this enables healthy professional relationships to be created at work, breeding positive clientele relationships too. Our relationship is not only as professional, but also work
                                                 </p>
                                                 <hr class="space s" />
-                                                <a href="#" class="btn btn-lg"><i class="fa fa-gears"></i> Services</a><span class="space"></span>
-                                                <a href="#" class="btn btn-lg btn-border"><i class="fa fa-folder-open"></i> Projects</a>
+                                               
                                             </div>
-                                            <div class="col-md-6">
+                                           
+                                        </div>
+                                        <hr class="space visible-sm" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-slider-anima="fade-left" data-time="1000">
+                        <div class="section-slide">
+                            <div class="bg-cover" style="background-image:url('../images/bg-5.jpg')">
+                            </div>
+                            <div class="container">
+                                <div class="container-middle">
+                                    <div class="container-inner text-left">
+                                        <hr class="space m visible-sm" />
+                                        <div class="row">
+                                            <h2 style="text-align: center;">Why Aces Digitale</h2>
+                                            <div class="border" style=" width: 160px; height: 5px; background: #6ab04c;  margin: 26px auto;"></div>
+                                            <div class="col-md-12 anima">
+                                                <h1 class="text-l text-normal text-m-xs" style="text-align: center; font-weight: 600;">Customise Solutions</h1>
+                                                <p class="text-s-xs" style="text-align: center;">
+                                                    Because we know every brand is different, we offer a tailored, flexible service that compounds relevant qualitative & quantitative research methodologies together and maximises return on investment. Our solutions include qualitative research, quantitative research, online research and recruitment, and can easily be customised according to our clients' data collection and fieldwork needs. Being pioneers in fieldwork and data collection in the Market Research industry has enabled Aces Digitale to provide miraculous `insights which guarantee clients' success
+                                                </p>
+                                                <hr class="space s" />
                                             </div>
+                                          
                                         </div>
                                         <hr class="space visible-sm" />
                                     </div>
@@ -199,51 +255,52 @@
         </div>
     </div>
     <div class="section-empty">
-        <div class="container content">
+        <div class="container content" style="padding-top: 20px;">
+            <h2 style="text-align: center;">Our Services</h2>
             <div class="flexslider carousel outer-navs" data-options="minWidth:200,itemMargin:30,numItems:4,controlNav:false">
                 <ul class="slides">
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
-                            <i class="fa fa-comments-o icon circle anima"></i>
-                            <h3>Consulting</h3>
+                            <img style="width: 15px; height: 50px;" src="/images/iconimg/research (1).png">
+                            <h3>Quantitative</h3>
                             <p>
-                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                                Quantitative methodologies range includes F2F, CAPI, CAWI, CATI, PAPI
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
-                            <i class="fa fa-clone icon circle anima"></i>
-                            <h3>Architecture</h3>
+                            <img style="width: 15px; height: 50px;" src="/images/iconimg/analysis.png">
+                            <h3>Business research</h3>
                             <p>
-                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                                Business research is a process of obtaining a detailed study of all the business areas.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
-                            <i class="fa fa-skyatlas icon circle anima"></i>
-                            <h3>Green buildings</h3>
+                            <img style="width: 15px; height: 50px;" src="/images/iconimg/research.png">
+                            <h3>Consumer Behaviour </h3>
                             <p>
-                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                                consumer behaviour research is to obtain the qualitative aspects of information about .
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
-                            <i class="fa fa-user-o icon circle anima"></i>
-                            <h3>Flat share</h3>
+                            <img style="width: 15px; height: 50px;" src="/images/iconimg/partner.png">
+                            <h3>Channel Partner </h3>
                             <p>
-                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                                supplier satisfaction has not been a major topic of interest within purchasing.
                             </p>
                         </div>
                     </li>
                     <li>
                         <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
-                            <i class="fa fa-plus-square-o icon circle anima"></i>
-                            <h3>Urban design</h3>
+                            <img style="width: 15px; height: 50px;" src="/images/iconimg/poster.png">
+                            <h3>Brand</h3>
                             <p>
-                                Interdum iusto pulvinar consequuntur augue optioepellat fugus expedita fusce.
+                                In an ideal world, Brand Services provide usefulness like a service, create awareness
                             </p>
                         </div>
                     </li>
@@ -258,218 +315,83 @@
                         <p>Take a look inside</p>
                     </div>
                     <p class="text-color">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Online Market research has transformed the way Market Research studies were being done traditionally by reducing down the Full cycle time of a research study and also by reducing the cost of conducting study.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillumo.
-                    </p>
+                        Our Online MR service offering, focuses on bringing time to launch the study to near real time for moderate complexity levels projects, leveraging the difference in the time zones of the customer and of our delivery centre.                    </p>
                 </div>
                 <div class="col-md-4">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris ninto.
+                        Our services come bundled with unique consulting services to understand and meet the needs of small and medium enterprises.
+                        
                     </p>
                     <p>
-                        Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut
-                        laoreet ac, aliquam sit amet justo nunc tempor, metus velo.
+                        Focus on Panelist engagement and motivation at all stages of design and programming, to ensure a good data quality, is another value add which makes our research services so unique.
+                        
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididit doloructus placerat scelerisque euismod,
-                        iaculiit dolor, luctus placerat scelerisque euismod, iaculiunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam.
+                        We provide research services on following application areas of Research
                     </p>
                 </div>
                 <div class="col-md-4">
                     <div class="list-items">
                         <div class="list-item">
                             <div class="row">
-                                <div class="col-md-9">
-                                    <h3>Financial consulting</h3>
-                                    <p>Lorem ipsum dolor sit amet consecteture</p>
-                                </div>
-                                <div class="col-md-3">
-                                    <span>Free</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="list-item">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <h3>Green constructions</h3>
+                                <div class="col-md-12">
+                                    <h3>Quantitative</h3>
                                     <p>Aute irure dolor in reprehenderit</p>
                                 </div>
-                                <div class="col-md-3">
-                                    <span>Eco</span>
-                                </div>
+                              
                             </div>
                         </div>
                         <div class="list-item">
                             <div class="row">
-                                <div class="col-md-9">
-                                    <h3>Future technologies</h3>
-                                    <p>Aute irure dolor in reprehenderit</p>
+                                <div class="col-md-12">
+                                    <h3>Business research</h3>
+                                        <p>
+                                            Business research is a process.
+                                        </p>
                                 </div>
-                                <div class="col-md-3">
-                                    <span>Future</span>
-                                </div>
+                              
                             </div>
                         </div>
                         <div class="list-item">
                             <div class="row">
-                                <div class="col-md-9">
-                                    <h3>Buildings</h3>
-                                    <p>Nostrud exercitation ullamco laboris nisio</p>
+                                <div class="col-md-12">
+                                    <h3>Consumer Behaviour </h3>
+                                        <p>
+                                            consumer behaviour research
+                                        </p>
                                 </div>
-                                <div class="col-md-3">
-                                    <span>Promo</span>
+                            
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>Channel Partner </h3>
+                            <p>
+                                supplier satisfaction / Channel Paetner
+                            </p>
                                 </div>
+                               
                             </div>
                         </div>
                     </div>
                     <hr class="space s" />
-                    <a href="#" class="btn btn-lg"><i class="fa fa-angle-right"></i>View services</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-bg-image parallax-window" data-natural-height="650" data-natural-width="1920" data-parallax="scroll" data-image-src="../images/bg-6.jpg">
-        <div class="container content">
-            <div class="row">
-                <div class="col-md-9  col-sm-12">
-                    <div class="row proporzional-row" data-anima="fade-top" data-time="700" data-timeline="asc" data-timeline-time="200">
-                        <div class="col-md-4 boxed-inverse boxed-border border-color white middle-content text-center anima">
-                            <h2 class="text-m text-normal no-margins">London</h2>
-                            <p>Lorem ipsum dolor sit amet consecteture and adipi scing elitsed do eiusmod tempore.</p>
-                            <hr class="space xs" />
-                            <a href="#" class="btn-text">Details</a>
-                        </div>
-                        <div class="col-md-4 boxed-inverse boxed-border border-color white middle-content text-center anima">
-                            <h2 class="text-m text-normal no-margins">San Francisco</h2>
-                            <p>Lorem ipsum dolor sit amet consecteture and adipi scing elitsed do eiusmod tempore.</p>
-                            <hr class="space xs" />
-                            <a href="#" class="btn-text">Details</a>
-                        </div>
-                        <div class="col-md-4 boxed-inverse boxed-border border-color white middle-content text-center anima">
-                            <h2 class="text-m text-normal no-margins">Dubai</h2>
-                            <p>Lorem ipsum dolor sit amet consecteture and adipi scing elitsed do eiusmod tempore.</p>
-                            <hr class="space xs" />
-                            <a href="#" class="btn-text">Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-12 white">
-                    <hr class="space visible-sm hidden-xs" />
-                    <h2 class="text-color">Solutions</h2>
-                    <h2>Where we provide our packages</h2>
-                    <hr class="space m" />
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco .
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-empty no-paddings-y">
-        <div class="container content">
-            <hr class="space" />
-            <div class="row">
-                <div class="col-md-4 hidden-sm visible-xs">
-                    <img data-anima="fade-bottom" data-time="700" src="../images/mk-3.png" alt="" />
-                </div>
-                <div class="col-md-8 col-sm-12">
-                    <div class="title-base text-left">
-                        <hr />
-                        <h2>Finance consulting</h2>
-                        <p>Proven experience</p>
-                    </div>
-                    <p>
-                        Our Finance consulting team have proven experience of working with clients through the lifecycle of Finance change projects. Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillumo.
-                    </p>
-                    <hr class="space m" />
-                    <table class="grid-table border-table text-left">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <h5 class="text-color">30 minutes</h5>
-                                    <h3 class="no-margins">$50.00</h3>
-                                </td>
-                                <td>
-                                    <h5 class="text-color">1 hour</h5>
-                                    <h3 class="no-margins">$80.00</h3>
-                                </td>
-                                <td>
-                                    <h5 class="text-color">Half day</h5>
-                                    <h3 class="no-margins">$350.00</h3>
-                                </td>
-                                <td>
-                                    <h5 class="text-color">Full day</h5>
-                                    <h3 class="no-margins">$500.00</h3>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <hr class="space visible-sm" />
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-bg-color no-paddings-y">
-        <div class="container content">
-            <hr class="space" />
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <div class="title-base text-left">
-                        <hr />
-                        <h2>Professional courses</h2>
-                        <p>Proven experience</p>
-                    </div>
-                    <p>
-                        Our Finance consulting team have proven experience of working with clients through the lifecycle of Finance change projects. Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
-                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillumo.
-                    </p>
-                    <hr class="space m" />
-                    <table class="grid-table border-table text-left">
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <h5 class="text-color">General</h5>
-                                    <h3 class="no-margins">$500.00</h3>
-                                </td>
-                                <td>
-                                    <h5 class="text-color">Security</h5>
-                                    <h3 class="no-margins">$1500.00</h3>
-                                </td>
-                                <td>
-                                    <h5 class="text-color">Laws</h5>
-                                    <h3 class="no-margins">$3500.00</h3>
-                                </td>
-                                <td>
-                                    <h5 class="text-color">Ensurance</h5>
-                                    <h3 class="no-margins">$5000.00</h3>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <hr class="space visible-sm" />
-                </div>
-                <div class="col-md-4 text-right hidden-sm visible-xs">
-                    <img data-anima="fade-bottom" data-time="700" src="../images/mk-4.png" alt="" />
+                    <a href="services-1.html" class="btn btn-lg">View services</a>
                 </div>
             </div>
         </div>
     </div>
     
+   
+    
     <div class="section-bg-image parallax-window" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="../images/hd-4.jpg">
         <div class="container content">
             <div class="row proporzional-row">
                 <div class="col-md-3 boxed-inverse boxed-border white middle-content text-left">
-                    <p>Auctor orci proin consequat magna natoque mattis nostra eiusmod esse lunga laboriosam luctus pulvinar tenetur fugito similique.</p>
+                    <p>Aces Digitale is a global research and outsourcing firm that helps organizations across the globe optimize their end-to-end research processes.</p>
                 </div>
                 <div class="col-md-3  col-sm-12">
                     <a class="img-box lightbox" href="../images/image-1.jpg" data-lightbox-anima="fade-right">
@@ -477,35 +399,19 @@
                     </a>
                 </div>
                 <div class="col-md-3 boxed white middle-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.</p>
+                    <p>With around 4 years’ experience, we provide multi-geography and multi-lingual research solutions including business and financial research, survey programming and data processing to our clients. </p>
                 </div>
                 <div class="col-md-3 boxed-inverse middle-content text-left">
-                    <h4>Services</h4>
+                    <h4>About Us</h4>
                     <h2 class="text-color">Awesome</h2>
-                    <p class="no-margins">Lorem ipsum dolor sit amet consectetur adipo.</p>
+                    <p class="no-margins">Aces Digitale was founded in 2016 and is headquartered in Gurugram, India</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="section-map box-middle-container row-19 box-transparent">
-        <div class="google-map" data-coords="40.741895,-73.989308" data-zoom="15" data-marker-pos="col-md-6-right" data-skin="gray" data-marker="../images/marker-map.png"></div>
-        <div class="overlaybox overlaybox-side">
-            <div class="container content">
-                <div class="row">
-                    <div class="col-md-6"></div>
-                    <div class="col-md-6 overlaybox-inner box-middle">
-                        <h2 class="text-color text-normal">Contact.</h2>
-                        <h2 class="text-normal">Collins Street<br />8007, San Francisco<br />United states</h2>
-                        <hr class="space m" />
-                        <p class="text-normal">
-                            1-800-405-377<br />info@company.com<br />Mon - Sat: 8.00 - 19:00
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-empty">
+        
+        <div class="section-empty">
         <div class="container content">
             <div class="row vertical-row">
                 <div class="col-md-4 col-sm-12">
@@ -523,28 +429,20 @@
                         Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <hr class="space s" />
-                    <div class="row vertical-row">
-                        <div class="col-md-4">
-                            <img src="../images/sign-3.png" alt="" />
-                        </div>
-                        <div class="col-md-6">
-                            <h1 class="text-s text-normal no-margins">Mark Ferdinand</h1>
-                            <h4 class="text-xs">Founder</h4>
-                        </div>
-                    </div>
+                   
                 </div>
                 <div class="col-md-8 boxed white">
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="fa-ul text-light">
-                                <li><i class="fa-li fa fa-map-marker"></i> 184 Main Collins Street, 8007</li>
-                                <li><i class="fa-li fa fa-calendar "></i> Mon - Sat 8.00 - 18.00</li>
+                                <li><img src="/images/iconimg/home-run.png"> 184 Main Collins Street, 8007</li>
+                                <li><img src="/images/iconimg/calendar.png"> Mon - Sat 8.00 - 18.00</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
                             <ul class="fa-ul text-light">
-                                <li><i class="fa-li fa fa-envelope-o"></i> info@company.com</li>
-                                <li><i class="fa-li fa fa-phone "></i> +1 322-55889664 or +1 55889665</li>
+                                <li><img src="/images/iconimg/email.png"> info@company.com</li>
+                                <li><img src="/images/iconimg/phone.png"> +1 322-55889664 or +1 55889665</li>
                             </ul>
                         </div>
                     </div>
@@ -563,7 +461,7 @@
                             <div class="col-md-12">
                                 <textarea id="messagge" name="messagge" placeholder="Write your message" class="form-control form-value" required></textarea>
                                 <hr class="space s" />
-                                <button class="btn-sm btn" type="submit"><i class="fa fa-envelope-o"></i>Send messagge</button>
+                                <button class="btn-sm btn" type="submit"><img src="/images/iconimg/email.png"> message</button>
                             </div>
                         </div>
                         <div class="success-box">
@@ -577,66 +475,7 @@
             </div>
         </div>
     </div>
-    
-    <div class="section-empty">
-        <div class="container content">
-            <div class="flexslider carousel outer-navs png-over text-center" data-options="numItems:6,minWidth:100,itemMargin:30,controlNav:false,directionNav:true">
-                <ul class="slides">
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_1.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_2.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_3.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_4.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_5.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_6.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_7.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_8.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_1.png" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a class="img-box" href="#">
-                            <img src="../images/logos/logo_2.png" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
     </div>
-    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
     <footer class="footer-base">
         <div class="content">
             <div class="container">
@@ -652,38 +491,31 @@
                         <hr class="space m" />
                         <div class="btn-group social-group btn-group-icons">
                             <a target="_blank" href="#" data-social="share-facebook">
-                                <i class="fa fa-facebook text-xs circle"></i>
+                               <img src="/images/iconimg/facebook.png">
                             </a>
                             <a target="_blank" href="#" data-social="share-twitter">
-                                <i class="fa fa-twitter text-xs circle"></i>
+                                <img src="/images/iconimg/tweet.png">
                             </a>
                             <a target="_blank" href="#" data-social="share-google">
-                                <i class="fa fa-google-plus text-xs circle"></i>
+                                <img src="/images/iconimg/gmail.png">
                             </a>
                             <a target="_blank" href="#" data-social="share-linkedin">
-                                <i class="fa fa-linkedin text-xs circle"></i>
+                                <img src="/images/iconimg/instagram-sketched.png">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-4 footer-left text-left">
                         <div class="row">
-                            <div class="col-md-6 text-s">
+                            <div class="col-md-12 text-s" style="text-align: center;">
                                 <h3>Menu</h3>
-                                <a href="#">Home</a><br />
-                                <a href="#">Contacts</a><br />
-                                <a href="#">Future projects</a><br />
-                                <a href="#">Locations</a><br />
-                                <a href="#">Latest news</a><br />
+                                <a href="index-main.html">Home</a><br />
+                                <a href="contacts-3.html">Contacts</a><br />
+                                <a href="services-1.html">Services</a><br />
+                                <a href="about-us-1.html">About US</a><br />
+                              
 
                             </div>
-                            <div class="col-md-6 text-s">
-                                <h3>Pages</h3>
-                                <a href="#">Support</a><br />
-                                <a href="#">Terms of services</a><br />
-                                <a href="#">RSS Feeds</a><br />
-                                <a href="#">Partnerships</a><br />
-                                <a href="#">Latest news</a><br />
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-4 footer-left text-left">
@@ -698,46 +530,47 @@
             </div>
             <div class="row copy-row">
                 <div class="col-md-12 copy-text">
-                    © 2019 Yellow Business - Multipurpose & Construction Template Handmade by <a href="https://schiocco.com/">schiocco.com</a>
+                    © 2020 Aces Digitale
                 </div>
             </div>
         </div>
-        <link rel="stylesheet" href="../HTWF/scripts/font-awesome/css/font-awesome.css">
-        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
-        <script src="../HTWF/scripts/imagesloaded.min.js"></script>
-        <script src="../HTWF/scripts/parallax.min.js"></script>
-        <script src="../HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
-        <script async src="../HTWF/scripts/isotope.min.js"></script>
-        <script async src="../HTWF/scripts/php/contact-form.js"></script>
-        <script async src="../HTWF/scripts/jquery.progress-counter.js"></script>
-        <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
-        <script async src="../HTWF/scripts/bootstrap/js/bootstrap.popover.min.js"></script>
-        <script async src="../HTWF/scripts/jquery.magnific-popup.min.js"></script>
-        <script src="../HTWF/scripts/social.stream.min.js"></script>
-        <script src="../HTWF/scripts/jquery.slimscroll.min.js"></script>
-        <script src="../HTWF/scripts/google.maps.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         
-        <script src="../../../themekit.dev/tools/sidebar/sidebar.js" data-setting="yellowbusiness"></script>
-        <!-- GetButton.io widget -->
-<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+918947044116 ", // WhatsApp number
-            call: "8947044116", // Call phone number
-            call_to_action: "Message us", // Call to action
-            button_color: "#FF6550", // Color of button
-            position: "right", // Position may be 'right' or 'left'
-            order: "whatsapp,call", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-  </script>
-  <!-- /GetButton.io widget -->
     </footer>
+    
+    <script async src="../HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../HTWF/scripts/imagesloaded.min.js"></script>
+    <script src="../HTWF/scripts/parallax.min.js"></script>
+    <script src="../HTWF/scripts/flexslider/jquery.flexslider-min.js"></script>
+    <script async src="../HTWF/scripts/isotope.min.js"></script>
+    <script async src="../HTWF/scripts/php/contact-form.js"></script>
+    <script async src="../HTWF/scripts/jquery.progress-counter.js"></script>
+    <script async src="../HTWF/scripts/jquery.tab-accordion.js"></script>
+    <script async src="../HTWF/scripts/bootstrap/js/bootstrap.popover.min.js"></script>
+    <script async src="../HTWF/scripts/jquery.magnific-popup.min.js"></script>
+    <script src="../HTWF/scripts/social.stream.min.js"></script>
+    <script src="../HTWF/scripts/jquery.slimscroll.min.js"></script>
+    <script src="../HTWF/scripts/google.maps.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    
+    <script src="../../../themekit.dev/tools/sidebar/sidebar.js" data-setting="yellowbusiness"></script>
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+(function () {
+    var options = {
+        whatsapp: "+918947044116 ", // WhatsApp number
+        call: "8947044116", // Call phone number
+        call_to_action: "Message us", // Call to action
+        button_color: "#FF6550", // Color of button
+        position: "left", // Position may be 'right' or 'left'
+        order: "whatsapp,call", // Order of buttons
+    };
+    var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+    s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+    var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
+</script>
+<!-- /GetButton.io widget -->
 </body>
 
 <!-- Mirrored from templates.framework-y.com/yellowbusiness/pages/index-main.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Jun 2020 07:21:01 GMT -->
